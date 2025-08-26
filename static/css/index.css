@@ -2,6 +2,57 @@ body {
   font-family: 'Noto Sans', sans-serif;
 }
 
+/* 防止标题自动换行，只在我们指定的地方换 */
+.publication-title span {
+  white-space: nowrap; /* 核心代码：禁止span标签内的文字自动换行 */
+}
+
+/* 将主标题调小一号 */
+.publication-title {
+  font-size: 2.5rem; /* Bulma框架中 .is-1 默认为 3rem，这里改为 .is-2 的尺寸 2.5rem */
+  line-height: 1.4;
+}
+
+/* 调整摘要区域的字体类型 */
+.hero.is-light .content p,
+.teaser .subtitle {
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* 调整摘要区域的字体大小 */
+.hero.is-light .content p {
+  font-size: 1.3rem; /* 你可以调整这个数值，比如 1.2rem 或 18px */
+}
+
+/* 强制摘要区域的容器变宽 */
+.hero.is-light .column.is-four-fifths {
+  width: 100%;    /* 覆盖Bulma框架的80%宽度限制 */
+  flex: none;     /* 确保宽度设置生效 */
+}
+
+/* 调整Teaser图片的尺寸 */
+.teaser img {
+  max-width: 100%;     /* 将图片最大宽度设置为其容器的90%，使其变小 */
+  margin: 0 auto;     /* 让图片在容器内水平居中 */
+  display: block;     /* 确保 margin: auto 生效 */
+}
+
+/* 为 Benchmark Comparisons 区域设置 Times New Roman 字体 */
+/* section.section:not(.hero) .title,       选中 "Benchmark Comparisons" 标题 */
+section.section:not(.hero) .content,     /* 选中描述段落 */
+section.section:not(.hero) .column > p { /* 选中每个视频下方的说明文字 */
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* 调整 Benchmark Comparisons 描述段落的字体大小 */
+section.section:not(.hero) .content {
+  font-size: 1.2rem;  /* 你可以调整这个值，比如 1rem 或 18px */
+}
+
+/* 调整 Benchmark Comparisons 视频下方标签的字体大小 */
+section.section:not(.hero) .column > p {
+  font-size: 1.1rem; /* Bulma的.is-size-7是0.75rem，这里稍微调大一点 */
+}
 
 .footer .icon-link {
     font-size: 25px;

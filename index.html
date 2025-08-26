@@ -23,7 +23,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>An Efficient Trajectory Replanning Framework for Robotic Arm Non-Prehensile Transportation</title>
-  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <link rel="icon" type="image/x-icon" href="static/images/flag.jpg">
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
   rel="stylesheet">
 
@@ -49,7 +49,12 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">An Efficient Trajectory Replanning Framework for Robotic Arm Non-Prehensile Transportation</h1>
+            <h1 class="title is-1 publication-title">
+              <span>An Efficient Trajectory Replanning Framework for</span><br>
+              <span>Robotic Arm Non-Prehensile Transportation</span>
+            </h1>
+            <!-- <h1 class="title is-1 publication-title">An Efficient Trajectory Replanning Framework<br>for Robotic Arm Non-Prehensile Transportation</h1> -->
+            <!-- <h1 class="title is-1 publication-title">An Efficient Trajectory Replanning Framework for Robotic Arm Non-Prehensile Transportation</h1> -->
             <!-- Paper authors -->
             <!-- <div class="is-size-5 publication-authors">
               <span class="author-block">
@@ -139,124 +144,312 @@
     <div class="container is-max-desktop">
       <div class="hero-body">
         <img src="static/images/Fig00.jpg" alt="sss">
-        <!-- <h2 class="subtitle has-text-centered">
-          这里是你的图片描述，用一句话概括你的核心贡献。
-        </h2> -->
-      </div>
-    </div>
-  </section>
-
-<!-- Paper abstract -->
-<section class="section hero is-light">
-  <div class="container is-max-desktop">
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Abstract</h2>
-        <div class="content has-text-justified">
-          <p>
-            Robotic non-prehensile transportation in complex environments shows significant promise for the service industry. These tasks require robotic arms to be reactive, safe, and flexible enough to navigate dynamic and complex environments while maintaining stable transportation. However, existing limited-horizon motion control methods are often ineffective at navigating in such environments. This letter introduces a framework for efficiently replanning the trajectory of robotic arms to safely and flexibly transport objects. First, a sampling-based path planner with pose constraints is designed to generate a high-quality initial trajectory that is parameterized by piecewise polynomials. Next, an optimizer refines the trajectory to improve feasibility while striving to minimize control effort and time. Notably, the original dynamics-based optimization problem is decomposed into two simpler, kinematics-based subproblems to simplify and speed up computation. Additionally, a collision detector continuously monitors the current trajectory to determine whether to replan or perform a safety stop. The detector also triggers a hardware-level emergency stop when necessary. Finally, the effectiveness and robustness of this framework are validated through extensive simulations and real-world experiments.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End paper abstract -->
-
-
-<!-- Image carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-       <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel1.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          First image description.
+        <h2 class="subtitle has-text-justified">
+          Demonstration of our efficient trajectory replanning framework. The robotic arm detects an unexpected obstacle during transport and quickly generates a new, safe trajectory (yellow) to the goal, replacing the colliding segment of the current trajectory (blue).
         </h2>
       </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel2.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          Second image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-         Third image description.
-       </h2>
-     </div>
-     <div class="item">
-      <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="MY ALT TEXT"/>
-      <h2 class="subtitle has-text-centered">
-        Fourth image description.
-      </h2>
     </div>
-  </div>
-</div>
-</div>
-</section>
-<!-- End image carousel -->
+  </section> 
 
-<!-- Youtube video -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <!-- Paper video. -->
-      <h2 class="title is-3">Video Presentation</h2>
+  <!-- Paper abstract -->
+  <section class="section hero is-light">
+    <div class="container is-max-desktop">
       <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
-          
-          <div class="publication-video">
-            <!-- Youtube embed code here -->
-            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          <h2 class="title is-3">Abstract</h2>
+          <div class="content has-text-justified">
+            <p>
+              Robotic non-prehensile transportation in complex environments shows significant promise for the service industry. These tasks require robotic arms to be reactive, safe, and flexible enough to navigate dynamic and complex environments while maintaining stable transportation. However, existing limited-horizon motion control methods are often ineffective at navigating in such environments. This letter introduces a framework for efficiently replanning the trajectory of robotic arms to safely and flexibly transport objects. First, a sampling-based path planner with pose constraints is designed to generate a high-quality initial trajectory that is parameterized by piecewise polynomials. Next, an optimizer refines the trajectory to improve feasibility while striving to minimize control effort and time. Notably, the original dynamics-based optimization problem is decomposed into two simpler, kinematics-based subproblems to simplify and speed up computation. Additionally, a collision detector continuously monitors the current trajectory to determine whether to replan or perform a safety stop. The detector also triggers a hardware-level emergency stop when necessary. Finally, the effectiveness and robustness of this framework are validated through extensive simulations and real-world experiments.
+            </p>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
-<!-- End youtube video -->
+  </section>
 
-
-<!-- Video carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title is-3">Another Carousel</h2>
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-video1">
-          <video poster="" id="video1" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel1.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video2">
-          <video poster="" id="video2" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel2.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video3">
-          <video poster="" id="video3" autoplay controls muted loop height="100%">\
-            <!-- Your video file here -->
-            <source src="static/videos/carousel3.mp4"
-            type="video/mp4">
-          </video>
+  <!-- System Overview -->
+  <section class="section hero is-light">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column">
+          <h2 class="title is-3">System Overview</h2>
+          <img src="static/images/Fig01.jpg" 
+              alt="System architecture diagram of the replanning framework"
+              style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+          <div class="content has-text-justified">
+            <p>
+              Diagram of the proposed replanning framework, including path planning, trajectory parameterization, and a two-stage trajectory refinement.
+            </p>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
-<!-- End video carousel -->
+  </section>
 
+  <!-- Benchmark Comparisons Section -->
+  <section class="section">
+    <div class="container is-max-desktop">
+      <!------------------------------------- 对比实验 ------------------------------------->
+      <h2 class="title is-3 has-text-centered">Benchmark Comparisons</h2>
+
+      <!-- Subtitle/Description (Updated for the new layout) -->
+      <p class="content has-text-centered mb-5">
+        We compare our method (left) with a strong reactive baseline (right) adapted from an MPC approach <a href="#ref1">[1]</a> in four scenarios.
+      </p>
+
+      <!-- ROW 1: Scenario 1 Comparison -->
+      <div class="columns is-centered">
+        <!-- Video: Ours (Scenario 1) -->
+        <div class="column">
+          <figure class="image is-16by9">
+            <iframe class="has-ratio" src="https://www.youtube.com/embed/aEZr9XPv8Y0" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+          </figure>
+          <p class="has-text-centered has-text-weight-semibold mt-2">Ours (No obstacles)</p>
+        </div>
+        <!-- Video: Baseline (Scenario 1) -->
+        <div class="column">
+          <figure class="image is-16by9">
+            <iframe class="has-ratio" src="https://www.youtube.com/embed/0YMvLpLcd3U" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+          </figure>
+          <p class="has-text-centered has-text-weight-semibold mt-2">Baseline (No obstacles)</p>
+        </div>
+      </div>
+
+      <!-- ROW 2: Scenario 2 Comparison -->
+      <div class="columns is-centered">
+        <!-- Video: Ours (Scenario 2) -->
+        <div class="column">
+          <figure class="image is-16by9">
+            <iframe class="has-ratio" src="https://www.youtube.com/embed/fpccrrZfbh4" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+          </figure>
+          <p class="has-text-centered has-text-weight-semibold mt-2">Ours (Narrow passage)</p>
+        </div>
+        <!-- Video: Baseline (Scenario 2) -->
+        <div class="column">
+          <figure class="image is-16by9">
+            <iframe class="has-ratio" src="https://www.youtube.com/embed/-phaUml8rog" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+          </figure>
+          <p class="has-text-centered has-text-weight-semibold mt-2">Baseline (Narrow passage)</p>
+        </div>
+      </div>
+
+      <!-- ROW 3: Scenario 3 Comparison -->
+      <div class="columns is-centered">
+        <!-- Video: Ours (Scenario 3) -->
+        <div class="column">
+          <figure class="image is-16by9">
+            <iframe class="has-ratio" src="https://www.youtube.com/embed/iYIo58DJ8nc" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+          </figure>
+          <p class="has-text-centered has-text-weight-semibold mt-2">Ours (Table obstacle)</p>
+        </div>
+        <!-- Video: Baseline (Scenario 3) -->
+        <div class="column">
+          <figure class="image is-16by9">
+            <iframe class="has-ratio" src="https://www.youtube.com/embed/i2eD73WXFBA" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+          </figure>
+          <p class="has-text-centered has-text-weight-semibold mt-2">Baseline (Table obstacle)</p>
+        </div>
+      </div>
+      
+      <!-- ROW 4: Scenario 4 Comparison -->
+      <div class="columns is-centered">
+        <!-- Video: Ours (Scenario 4) -->
+        <div class="column">
+          <figure class="image is-16by9">
+            <iframe class="has-ratio" src="https://www.youtube.com/embed/OW1J-RSHoDg" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+          </figure>
+          <p class="has-text-centered has-text-weight-semibold mt-2">Ours (Random obstacles)</p>
+        </div>
+        <!-- Video: Baseline (Scenario 4) -->
+        <div class="column">
+          <figure class="image is-16by9">
+            <iframe class="has-ratio" src="https://www.youtube.com/embed/evYrL3xm24A" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+          </figure>
+          <p class="has-text-centered has-text-weight-semibold mt-2">Baseline (Random obstacles)</p>
+        </div>
+      </div>
+
+      <!------------------------------------- 反应测试 ------------------------------------->
+      <div class="container mt-6"> <!-- mt-6 增加一个大的上边距，和上面分开 -->
+        <h3 class="title is-3 has-text-centered mb-4">Reactivity Test</h3>
+
+        <p class="content has-text-centered mb-5">
+          The performance of the replanning framework is evaluated in dynamic environments.
+        </p>
+
+        <div class="columns is-centered">
+          <div class="column">
+            <figure class="image is-16by9">
+              <iframe class="has-ratio" src="https://www.youtube.com/embed/BWIKJ9bltkM" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+            </figure>
+            <p class="has-text-centered has-text-weight-semibold mt-2">Replanning in response to a sudden obstacle</p>
+          </div>
+          <div class="column">
+            <figure class="image is-16by9">
+              <iframe class="has-ratio" src="https://www.youtube.com/embed/kaFB2c12sQ8" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+            </figure>
+            <p class="has-text-centered has-text-weight-semibold mt-2">safety stop in response to a sudden obstacle</p>
+          </div>
+        </div>
+
+        <div class="columns is-centered">
+          <div class="column">
+            <figure class="image is-16by9">
+              <iframe class="has-ratio" src="https://www.youtube.com/embed/nPolIDKCnfk" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+            </figure>
+            <p class="has-text-centered has-text-weight-semibold mt-2">Non‑prehensile transportation in a dynamic environment (scene updated every 3s)</p>
+          </div>
+        </div>
+      </div>
+
+      <!------------------------------------- 鲁棒实验 ------------------------------------->
+      <div class="container mt-6">
+        <h3 class="title is-3 has-text-centered mb-4">Robustness Test</h3>
+        <p class="content has-text-centered mb-5">
+          We evaluate the robustness of our method against CoM deviation under varying levels of motion aggressiveness.
+        </p>
+
+        <div class="columns is-centered">
+          <div class="column">
+            <figure class="image">
+              <img src="static/images/Fig22.jpg" alt="Overview of the robustness test setup">
+            </figure>
+            <p>
+              Robustness experimental results. (a-c) Apparent contact‑force angle deviation vs. CoM displacement for Low/Medium/High aggressiveness; (d) Experimental setup: applied CoM deviation directions (x, y); (e)Success rate vs. CoM displacement for Low/Medium/High aggressiveness.
+            </p>
+          </div>
+        </div>
+
+        <div class="mt-6"> <!-- 增加一点上边距，和主图分开 -->
+          <!-- Row 1 -->
+          <div class="columns is-centered">
+            <div class="column">
+              <figure class="image is-4by3"><img src="static/images/低激进性_0.gif" alt="GIF description 1"></figure>
+              <p class="has-text-centered has-text-weight-semibold mt-2">Low aggressiveness, <br> Deviation: (x = 0.0 m, y = 0.0 m)</p>
+            </div>
+            <div class="column">
+              <figure class="image is-4by3"><img src="static/images/中激进性_0.gif" alt="GIF description 2"></figure>
+              <p class="has-text-centered has-text-weight-semibold mt-2">Medium aggressiveness, <br> Deviation: (x = 0.0 m, y = 0.0 m)</p>
+            </div>
+            <div class="column">
+              <figure class="image is-4by3"><img src="static/images/高激进性_0.gif" alt="GIF description 3"></figure>
+              <p class="has-text-centered has-text-weight-semibold mt-2">High aggressiveness, <br> Deviation: (x = 0.0 m, y = 0.0 m)</p>
+            </div>
+          </div>
+          <!-- Row 2 -->
+          <div class="columns is-centered">
+            <div class="column">
+              <figure class="image is-4by3"><img src="static/images/低激进性_05.gif" alt="GIF description 4"></figure>
+              <p class="has-text-centered has-text-weight-semibold mt-2">Low aggressiveness, <br> Deviation: (x = 0.05 m, y = 0.0 m)</p>
+            </div>
+            <div class="column">
+              <figure class="image is-4by3"><img src="static/images/中激进性_05.gif" alt="GIF description 5"></figure>
+              <p class="has-text-centered has-text-weight-semibold mt-2">Medium aggressiveness, <br> Deviation: (x = 0.05 m, y = 0.0 m)</p>
+            </div>
+            <div class="column">
+              <figure class="image is-4by3"><img src="static/images/高激进性_05.gif" alt="GIF description 6"></figure>
+              <p class="has-text-centered has-text-weight-semibold mt-2">High aggressiveness, <br> Deviation: (x = 0.05 m, y = 0.0 m)</p>
+            </div>
+          </div>
+          <!-- Row 3 -->
+          <div class="columns is-centered">
+            <div class="column">
+              <figure class="image is-4by3"><img src="static/images/低激进性_10.gif" alt="GIF description 7"></figure>
+              <p class="has-text-centered has-text-weight-semibold mt-2">Low aggressiveness, <br> Deviation: (x = 0.1 m, y = 0.0 m)</p>
+            </div>
+            <div class="column">
+              <figure class="image is-4by3"><img src="static/images/中激进性_10.gif" alt="GIF description 8"></figure>
+              <p class="has-text-centered has-text-weight-semibold mt-2">Medium aggressiveness, <br> Deviation: (x = 0.1 m, y = 0.0 m)</p>
+            </div>
+            <div class="column">
+              <figure class="image is-4by3"><img src="static/images/高激进性_10.gif" alt="GIF description 9"></figure>
+              <p class="has-text-centered has-text-weight-semibold mt-2">High aggressiveness, <br> Deviation: (x = 0.1 m, y = 0.0 m)</p>
+            </div>
+          </div>
+          <!-- Row 4 -->
+          <div class="columns is-centered">
+            <div class="column">
+              <figure class="image is-4by3"><img src="static/images/低激进性_13.gif" alt="GIF description 10"></figure>
+              <p class="has-text-centered has-text-weight-semibold mt-2">Low aggressiveness, <br> Deviation: (x = 0.13 m, y = 0.0 m)</p>
+            </div>
+            <div class="column">
+              <figure class="image is-4by3"><img src="static/images/中激进性_13.gif" alt="GIF description 11"></figure>
+              <p class="has-text-centered has-text-weight-semibold mt-2">Medium aggressiveness, <br> Deviation: (x = 0.13 m, y = 0.0 m)</p>
+            </div>
+            <div class="column">
+              <figure class="image is-4by3"><img src="static/images/高激进性_13.gif" alt="GIF description 12"></figure>
+              <p class="has-text-centered has-text-weight-semibold mt-2">High aggressiveness, <br> Deviation: (x = 0.13 m, y = 0.0 m)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!------------------------------------- 实物实验 ------------------------------------->
+      <section class="section">
+      <div class="container is-max-desktop">
+        <!-- Section Title -->
+        <h2 class="title is-3 has-text-centered">Real-World Experiments</h2>
+
+        <!-- Optional Description -->
+        <p class="content has-text-centered mb-5">
+          Finally, a series of real-world experiments validates the proposed method.
+        </p>
+
+        <!-- Row 1: Two videos side-by-side -->
+        <div class="columns is-centered">
+          <!-- Video 1 -->
+          <div class="column">
+            <figure class="image is-16by9">
+              <iframe class="has-ratio" src="https://www.youtube.com/embed/Ae-8Hn51Id0" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+            </figure>
+            <p class="has-text-centered has-text-weight-semibold mt-2">Transport a slender bottle</p>
+          </div>
+          <!-- Video 2 -->
+          <div class="column">
+            <figure class="image is-16by9">
+              <iframe class="has-ratio" src="https://www.youtube.com/embed/BLLYwSB57CM" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+            </figure>
+            <p class="has-text-centered has-text-weight-semibold mt-2">Transport milk boxes</p>
+          </div>
+        </div>
+
+        <!-- Row 2: One centered video (same size as above) -->
+        <div class="columns is-centered">
+          <div class="column is-half">
+            <figure class="image is-16by9">
+              <iframe class="has-ratio" src="https://www.youtube.com/embed/1YTJ_M5j0NE" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+            </figure>
+            <p class="has-text-centered has-text-weight-semibold mt-2">Transport partially filled water</p>
+          </div>
+        </div>
+        
+        <!-- Row 3: Another centered video (same size as above) -->
+        <div class="columns is-centered">
+          <div class="column">
+            <figure class="image is-16by9">
+              <iframe class="has-ratio" src="https://www.youtube.com/embed/VUcoDlgwZaQ" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+            </figure>
+            <p class="has-text-centered has-text-weight-semibold mt-2">Non-prehensile transportation with frequently changing targets</p>
+          </div>
+        </div>
+    </div>
+  </section>
+
+
+
+
+  <!-- 参考文献 -->
+  <section class="section">
+    <div class="container is-max-desktop content">
+      <h2 class="title">References</h2>
+      <ol type="1">
+        <!-- 你的参考文献 -->
+        <li id="ref1">
+          A. Heins and A. P. Schoellig, “Keep it upright: Model predictive control for nonprehensile object transportation with obstacle avoidance on a mobile manipulator,” IEEE Robot. Automat. Lett., vol. 8, no. 12, pp. 7986--7993, 2023.
+        </li>
+      </ol>
+    </div>
+  </section>
 
 <!--BibTex citation -->
   <!-- <section class="section" id="BibTeX">
