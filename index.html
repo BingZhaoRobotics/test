@@ -24,7 +24,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-  <title>Academic Project Page</title>
+  <title>An Efficient Trajectory Replanning Framework for Robotic Arm Non-Prehensile Transportation</title>
   <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
   rel="stylesheet">
@@ -148,7 +148,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Robotic non-prehensile transportation in complex environments shows significant promise for the service industry. These tasks require robotic arms to be reactive, safe, and flexible enough to navigate dynamic and complex environments while maintaining stable transportation. However, existing limited-horizon motion control methods are often ineffective at navigating in such environments. This letter introduces a framework for efficiently replanning the trajectory of robotic arms to safely and flexibly transport objects.
+            Robotic non-prehensile transportation in complex environments shows significant promise for the service industry. These tasks require robotic arms to be reactive, safe, and flexible enough to navigate dynamic and complex environments while maintaining stable transportation. However, existing limited-horizon motion control methods are often ineffective at navigating in such environments. This letter introduces a framework for efficiently replanning the trajectory of robotic arms to safely and flexibly transport objects. First, a sampling-based path planner with pose constraints is designed to generate a high-quality initial trajectory that is parameterized by piecewise polynomials. Next, an optimizer refines the trajectory to improve feasibility while striving to minimize control effort and time. Notably, the original dynamics-based optimization problem is decomposed into two simpler, kinematics-based subproblems to simplify and speed up computation. Additionally, a collision detector continuously monitors the current trajectory to determine whether to replan or perform a safety stop. The detector also triggers a hardware-level emergency stop when necessary. Finally, the effectiveness and robustness of this framework are validated through extensive simulations and real-world experiments.
           </p>
         </div>
       </div>
@@ -196,9 +196,6 @@
 </div>
 </section>
 <!-- End image carousel -->
-
-
-
 
 <!-- Youtube video -->
 <section class="hero is-small is-light">
@@ -255,58 +252,36 @@
 <!-- End video carousel -->
 
 
-
-
-
-
-<!-- Paper poster -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title">Poster</h2>
-
-      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
-          </iframe>
-        
-      </div>
-    </div>
-  </section>
-<!--End paper poster -->
-
-
 <!--BibTex citation -->
-  <section class="section" id="BibTeX">
+  <!-- <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
       <pre><code>BibTex Code Here</code></pre>
     </div>
-</section>
+</section> -->
 <!--End BibTex citation -->
 
-
-  <footer class="footer">
+<!-- <footer class="footer">
   <div class="container">
     <div class="columns is-centered">
       <div class="column is-8">
         <div class="content">
-
           <p>
             This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
             You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
             Commons Attribution-ShareAlike 4.0 International License</a>.
           </p>
-
         </div>
       </div>
     </div>
   </div>
-</footer>
+</footer> -->
 
 <!-- Statcounter tracking code -->
   
 <!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
 
-    <!-- End of Statcounter Code -->
+<!-- End of Statcounter Code -->
 
-  </body>
-  </html>
+</body>
+</html>
